@@ -19,6 +19,11 @@ rss: default
 menu:
   Home: /
   Archives: /archives/
+  About: /about.html
+  Links: /links.html
+  Resources: /resources.html
+  Tools: /tools.html
+
   #Tags: /tags/
   #Categories: /categories/
   #About: /about/
