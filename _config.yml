@@ -19,14 +19,12 @@ rss: 'atom.xml'
 menu:
   Home: /
   Archives: /archives/
-  About: /about.html
-  Links: /links.html
-  Resources: /resources.html
-  Tools: /tools.html
-
+  About: /about/
+  Links: /links/
+  Resources: /resources/
+  Tools: /tools/
   #Tags: /tags/
   #Categories: /categories/
-  #About: /about/
 
 # ===========================================
 # Theme Settings
@@ -94,7 +92,7 @@ google_analytics: UA-92083861-2
 google_verification:
 
 # Disqus
-disqus_shortname: inflooping
+disqus_shortname: 
 
 #Changyan
 changyan:
@@ -108,17 +106,17 @@ livere_datauid:
 # Demo: https://gitalk.github.io
 # https://github.com/gitalk/gitalk
 gitalk:
-  enable: false
-  github_id: GitHub repo owner
-  repo: GitHub repo
-  client_id: GitHub Application Client ID
-  client_secret: GitHub Application Client Secret
-  admin_user: GitHub repo owner and collaborators, only these guys can initialize github issues
+  enable: true
+  github_id: d0zingcat
+  repo: infloop.life
+  client_id: 8b3b0672f88ca539fdd7
+  client_secret: ecf61aaa314e62240f94529656b98eca04fe8d94
+  admin_user: d0zingcat
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en, es-ES, fr, ru, zh-CN, zh-TW
-  language:
+  language: en, zh-CN
 
 # ===========================================
 # Version
