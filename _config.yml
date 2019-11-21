@@ -92,7 +92,7 @@ google_analytics: UA-92083861-2
 google_verification:
 
 # Disqus
-disqus_shortname: 
+disqus_shortname: endlessloop
 
 #Changyan
 changyan:
@@ -106,7 +106,7 @@ livere_datauid:
 # Demo: https://gitalk.github.io
 # https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: d0zingcat
   repo: infloop.life
   client_id: 8b3b0672f88ca539fdd7
